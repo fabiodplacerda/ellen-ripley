@@ -8,19 +8,29 @@
   </head>
   <body>
     <!--
-A level 1 heading
-One or more level 2 or lower headings
-One or more paragraphs
-An unordered list
-An ordered list
+
+<div class="grid-container">
+  <div class="item1">Header</div>
+  <div class="item2">Menu</div>
+  <div class="item3">Main</div>  
+  <div class="item4">Right</div>
+  <div class="item5">Footer</div>
+
+</div>
     -->
-    <header>
-      <h1>Ellen Ripley: A Profile</h1>
-      <img
-        src="https://images.squarespace-cdn.com/content/v1/598b5f49d482e97953d22893/1603738717328-RFCOPXDS6C8INSIJGSS1/Screen+Shot+2020-10-26+at+10.43.43+AM.png"
-        alt="Ellen Ripley looking pensive while an Alien systematically murders her entire crew."
-      />
-      <nav>
+
+    <div class="grid-container">
+      <header class="item1">
+        <img
+          class="banner"
+          src="https://images.squarespace-cdn.com/content/v1/598b5f49d482e97953d22893/1603738717328-RFCOPXDS6C8INSIJGSS1/Screen+Shot+2020-10-26+at+10.43.43+AM.png"
+          alt="Ellen Ripley looking pensive while an Alien systematically murders her entire crew."
+        />
+
+        <h1>Ellen Ripley: A Profile</h1>
+      </header>
+
+      <nav class="item2">
         <ul>
           <li><a href="#films">Films</a></li>
           <li><a href="#video-games">Video Games</a></li>
@@ -37,67 +47,76 @@ An ordered list
           </li>
         </ul>
       </nav>
-    </header>
-    <main>
-      <section>
-        <h2 id="films">Films</h2>
-        <h3>Alien (1979)</h3>
-        <p>
-          Ripley is introduced as a warrant officer aboard the Nostromo, a
-          spaceship en route to Earth from Thedus. Having been placed in stasis
-          for the long journey home, the crew is awakened when the Nostromo
-          receives a transmission of unknown origin from a nearby planetoid.
-          Following their landing, an unknown creature infiltrates the ship, and
-          kills every other member of the crew. Ripley is the only member to
-          escape from the Nostromo prior to its explosion, which she
-          deliberately commenced to kill the monster. However, she discovers
-          that the Alien is also aboard the ship's shuttle, but expels it into
-          space before putting herself in stasis for the return trip to Earth.
-        </p>
-        <h3>Other films</h3>
-        <ul>
-          <li>Aliens (1986)</li>
-          <li>Alien 3 (1992)</li>
-          <li>Alien Resurrection (1997)</li>
-          <li>The Predator (2018)</li>
-        </ul>
-      </section>
-      <section>
-        <h2 id="video-games">Video Games</h2>
-        <h3>Aliens: Colonial Marines (2013)</h3>
-        <p>
-          Ripley has two cameos in the "Stasis Interrupted" DLC for the game. In
-          this prequel campaign, Ripley is seen being impregnated by a
-          facehugger and also appeared recreating the same final scene of Alien
-          3. The game also revealed that Hicks actually survived the events of
-          Alien 3 as he was retrieved by another Colonial Marines team, with the
-          body in the stasis chamber that crashed being another marine who was
-          knocked into Hicks' pod during a firefight, dying when the EEV
-          crashed. Ripley, Newt and Bishop's pods were ejected while Hicks had
-          to go with the other Marines.
-        </p>
-        <h3>Other Video Games</h3>
-        <ul>
-          <li>Alien: Isolation (2014)</li>
-          <li>Alien: Isolation – The Digital Series (2019)</li>
-        </ul>
-        <h2 id="comics">Comics</h2>
-        <ol>
-          <li>Alien: The Illustrated Story (1979)</li>
-          <li>Aliens: Outbreak (1988-1989)</li>
-          <li>Aliens: Nightmare Asylum (1989-1990)</li>
-          <li>Aliens: Female War (1990)</li>
-          <li>Alien 3 (1992)</li>
-          <li>Aliens: Newt's Tale (1992)</li>
+      <main class="item3">
+        <section>
+          <h2 id="films">Films</h2>
 
-          <li>Aliens: Space Marines (1992) Alien</li>
+          <h3>Alien (1979)</h3>
+          <div class="film1">
+            <p>
+              Ripley is introduced as a warrant officer aboard the Nostromo, a
+              spaceship en route to Earth from Thedus. Having been placed in
+              stasis for the long journey home, the crew is awakened when the
+              Nostromo receives a transmission of unknown origin from a nearby
+              planetoid. Following their landing, an unknown creature
+              infiltrates the ship, and kills every other member of the crew.
+              Ripley is the only member to escape from the Nostromo prior to its
+              explosion, which she deliberately commenced to kill the monster.
+              However, she discovers that the Alien is also aboard the ship's
+              shuttle, but expels it into space before putting herself in stasis
+              for the return trip to Earth.
+            </p>
+            <img
+              src="https://m.media-amazon.com/images/M/MV5BOTk3ODg1Nzg3NV5BMl5BanBnXkFtZTgwNDU0ODQ3NTM@._V1_.jpg"
+              class="film-image"
+            />
+          </div>
+          <h3>Other films</h3>
+          <ul>
+            <li>Aliens (1986)</li>
+            <li>Alien 3 (1992)</li>
+            <li>Alien Resurrection (1997)</li>
+            <li>The Predator (2018)</li>
+          </ul>
+        </section>
+        <section>
+          <h2 id="video-games">Video Games</h2>
+          <h3>Aliens: Colonial Marines (2013)</h3>
+          <p>
+            Ripley has two cameos in the "Stasis Interrupted" DLC for the game.
+            In this prequel campaign, Ripley is seen being impregnated by a
+            facehugger and also appeared recreating the same final scene of
+            Alien 3. The game also revealed that Hicks actually survived the
+            events of Alien 3 as he was retrieved by another Colonial Marines
+            team, with the body in the stasis chamber that crashed being another
+            marine who was knocked into Hicks' pod during a firefight, dying
+            when the EEV crashed. Ripley, Newt and Bishop's pods were ejected
+            while Hicks had to go with the other Marines.
+          </p>
+          <h3>Other Video Games</h3>
+          <ul>
+            <li>Alien: Isolation (2014)</li>
+            <li>Alien: Isolation – The Digital Series (2019)</li>
+          </ul>
+          <h2 id="comics">Comics</h2>
+          <ol>
+            <li>Alien: The Illustrated Story (1979)</li>
+            <li>Aliens: Outbreak (1988-1989)</li>
+            <li>Aliens: Nightmare Asylum (1989-1990)</li>
+            <li>Aliens: Female War (1990)</li>
+            <li>Alien 3 (1992)</li>
+            <li>Aliens: Newt's Tale (1992)</li>
 
-          <li>Resurrection (1997)</li>
-          <li>Aliens versus Predator versus Terminator (2000)</li>
-          <li>Aliens: Field Report (2014)</li>
-        </ol>
-      </section>
-    </main>
-    <footer></footer>
+            <li>Aliens: Space Marines (1992) Alien</li>
+
+            <li>Resurrection (1997)</li>
+            <li>Aliens versus Predator versus Terminator (2000)</li>
+            <li>Aliens: Field Report (2014)</li>
+          </ol>
+        </section>
+      </main>
+
+      <footer class="item4"></footer>
+    </div>
   </body>
 </html>
